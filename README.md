@@ -19,7 +19,32 @@ PawTrack is built using the **MERN** stack to ensure a responsive, scalable, and
 * **Backend:** Node.js, Express.js
 * **Database:** MongoDB (Atlas)
 * **Storage:** Firebase (for secure image uploads)
-* **APIs & Security:** Google Maps API, JSON Web Tokens (JWT) for secure authentication
+* **APIs & Security:** Google Maps API, JSON Web Tokens (JWT) for secure authentication.
+
+
+## 📸 Screenshots
+
+*(Add your project screenshots here to give visitors a visual idea of PawTrack. Replace the placeholder links with your actual image paths once they are uploaded to your repository.)*
+
+### Home Page & Map View
+<p align="center">
+  <img src="screenshots/1770215108699.png" width="600" />
+</p>
+
+### Lost & Found Reporting Form
+<p align="center">
+  <img src="screenshots/1770215108719.png" width="600" />
+</p> 
+
+### Blog
+<p align="center">
+  <img src="screenshots/1770215108701.png" width="600" />
+</p> 
+
+### User Dashboard
+<p align="center">
+  <img src="screenshots/1770215108626.png" width="600" />
+</p> 
 
 ## 🚀 Getting Started
 
