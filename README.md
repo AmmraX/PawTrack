@@ -1,12 +1,55 @@
-# React + Vite
+# PawTrack 🐾
+**Animal Lost and Found System**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Overview
+PawTrack is a centralized, community-driven web application designed to help people track and locate lost pets quickly and efficiently. By connecting pet owners with individuals who have found animals, the platform accelerates reunification and increases the probability of safe returns. 
 
-Currently, two official plugins are available:
+## ✨ Features
+* **Lost & Found Reporting:** Easily create detailed reports including animal type, breed, color, location (with map indications), date/time, and visual identification photos.
+* **Interactive Map Integration:** Visualize lost and found reports on a live map utilizing the Google Maps API for precise geolocation tagging.
+* **Advanced Search & Filters:** Filter active reports by animal type, date range, location radius, and specific labels (e.g., collar, friendly, injured).
+* **Real-Time Notifications:** Receive instant alerts when a new report matches your set preferences or falls within your geographic vicinity.
+* **User Dashboard:** Manage your active posts, monitor report statuses, and securely communicate with other users.
+* **Admin Moderation Panel:** Dedicated tools for administrators to verify accounts, moderate flagged posts, and ensure platform safety and integrity.
+* **Multilingual Support:** Accessible in English, Sinhala, and Tamil to effectively serve diverse communities.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technology Stack
+PawTrack is built using the **MERN** stack to ensure a responsive, scalable, and secure environment.
+* **Frontend:** ReactJS
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB (Atlas)
+* **Storage:** Firebase (for secure image uploads)
+* **APIs & Security:** Google Maps API, JSON Web Tokens (JWT) for secure authentication
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+* [Node.js](https://nodejs.org/) installed
+* [MongoDB](https://www.mongodb.com/atlas) database setup
+* Firebase project configured for storage
+* Google Maps API Key
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/AmmraX/PawTrack.git](https://github.com/AmmraX/PawTrack.git)
+
+2. Navigate to the project directory and install dependencies for both the frontend and backend:
+   cd PawTrack/backend
+   npm install
+   cd ../frontend
+   npm install
+
+3. Create a .env file in the backend directory and configure your environment variables:
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   GOOGLE_MAPS_API_KEY=your_api_key
+
+4. tart the development servers:
+   # Run backend
+    cd backend
+    npm start
+
+   # Run frontend
+     cd frontend
+     npm start
