@@ -28,22 +28,22 @@ PawTrack is built using the **MERN** stack to ensure a responsive, scalable, and
 
 ### Home Page & Map View
 <p align="center">
-  <img src="screenshots/1770215108699.png" width="600" />
+  <img src="screenshots/1770215108699.jpg" width="600" />
 </p>
 
 ### Lost & Found Reporting Form
 <p align="center">
-  <img src="screenshots/1770215108719.png" width="600" />
+  <img src="screenshots/1770215108719.jpg" width="600" />
 </p> 
 
 ### Blog
 <p align="center">
-  <img src="screenshots/1770215108701.png" width="600" />
+  <img src="screenshots/1770215108701.jpg" width="600" />
 </p> 
 
 ### User Dashboard
 <p align="center">
-  <img src="screenshots/1770215108626.png" width="600" />
+  <img src="screenshots/1770215108626.jpg" width="600" />
 </p> 
 
 ## 🚀 Getting Started
